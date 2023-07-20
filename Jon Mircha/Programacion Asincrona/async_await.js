@@ -27,7 +27,7 @@ function cuadradoPromise(value){
             obj = await cuadradoPromise(16);
             console.log(`${obj.value} * ${obj.value} da como resultado ${obj.result}`);
 
-            obj = await cuadradoPromise("32");
+            obj = await cuadradoPromise("32 ");
             console.log(`${obj.value} * ${obj.value} da como resultado ${obj.result}`);
 
             obj = await cuadradoPromise(5);
